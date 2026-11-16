@@ -1,0 +1,20 @@
+name = "flagsecure-verify"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# Kosong = mode belajar (server cuma menampilkan nilai dari APK).
+# Setelah build, isi nilai yang tampil di layar app, lalu deploy ulang.
+[vars]
+# EXPECTED_ENTRIES = ""
+# EXPECTED_SIZE = ""
+# EXPECTED_DEX = ""
+# EXPECTED_SIG = ""
+
+# Opsional, nonce sekali pakai (anti-replay). Buat namespace KV lalu isi id:
+# [[kv_namespaces]]
+# binding = "NONCES"
+# id = "ISI_ID_KV"
+
+# Secret (jangan ditulis di sini): HMAC_KEY dan SECRET_CONTENT
+#   wrangler secret put HMAC_KEY
+#   wrangler secret put SECRET_CONTENT
